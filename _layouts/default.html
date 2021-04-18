@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% if page.title %} {{ page.title }} — {{ page.subtitle }} | {% endif %}{{ site.title }}</title>
+    <!-- Metadata -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
+    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ '/assets/img/pudhina.png' | prepend: site.baseurl }}" />
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="{{ "/assets/vendor/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ "/assets/vendor/normalize-css/normalize.css" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/highlight/styles/agate.css" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}" />
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <!-- Navigation -->
+            <div class="navigation">
+                <ul class="menu">
+                    <li class="menu__entry"><a href="{{ site.url }}" class="logo">Home</a></li>
+                    <li class="menu__entry"><a href="{{ '/' | prepend: site.baseurl }}">Archive</a></li>
+                    <li class="menu__entry"><a href="{{ '/feed.xml' | prepend: site.baseurl }}">RSS</a></li>
+                </ul>
+            </div>
+            <!-- Social -->
+            <ul class="social-links">
+                {% if site.email %}
+                    <a href="mailto:{{ site.email }}" class="social-links__entry" target="_blank">
+                        <i class="fa fa-envelope-square"></i>
+                    </a>
+                {% endif %}
+                <a href="https://github.com/cosasdepuma" class="social-links__entry" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="https://in.linkedin.com/in/kikefontan" class="social-links__entry" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </ul>
+        </header>
+
+        <!-- Title -->
+        <h1 class="page-title">
+            <div class="page-title__text">{{ page.title }}</div>
+            <div class="page-title__subtitle">{{ page.subtitle }}</div>
+        </h1>
+        <img src="{{ '/assets/img/pudhina.png' | prepend: site.baseurl }}" id="about-img">
+        
+        <!-- Content -->
+        {{ content }}
+
+        <!-- Footer -->
+        <footer class="about">
+            <br>
+            <div class="about__devider">*****</div>
+            <div class="about__text">
+                <br>🌿 🌿
+                <br>
+                <br>Last update: 18th April, 2021
+            </div>
+        </footer>
+    </div>
+    <!-- Vendor JS -->
+    <script src="{{ "/assets/vendor/highlight/highlight.pack.js" | prepend: site.baseurl }}"></script>
+    <!-- JS -->
+    <script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>

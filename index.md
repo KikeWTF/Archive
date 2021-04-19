@@ -8,7 +8,7 @@ sitemap:
 ---
 <!-- Description -->
 <div id="describe-text">
-	<p>Here you can see a list of my achievements, some news about me and other interesting links.</p>
+	<p>My little time machine</p>
 </div>
 
 <br>
@@ -25,7 +25,7 @@ sitemap:
 			<ul class="list-posts">
 				{% for post in category.items %}
 					<li class="post-teaser">
-						<a href="{{ post.link }}"><span class="post-teaser__title">{{ post.title }}</span></a>
+						<a href="{% if post.layout == "media" %}{{ post.link | prepend: "/assets/media/" | prepend: site.baseurl }}{% else %}{{ post.link }}{% endif %}"><span class="post-teaser__title">{{ post.title }}</span></a>
 						<a href="{% if post.archive %}{{ post.archive }}{% else %}{{ post.link }}{% endif %}"><span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}{% if post.archive %} - Archived{% endif %}</span></a>
 					</li>
 				{% endfor %}

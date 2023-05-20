@@ -1,0 +1,191 @@
+[
+  {
+    "date": "2018-05-02",
+    "category": "press",
+    "image": "farodevigo.png",
+    "name": "Several prizes in the 'Hack For Good' contest",
+    "description": [
+      "Fontán participated at the University of Vigo in the 'Hack For Good' contest (organized by Telefónica). He won prizes on three occasions. \"I think the first time was a second prize of about 600 euros, with a project to treat phobias through virtual reality,\" says Fontán."
+    ],
+    "tags": [
+      "Freelancer",
+      "Project",
+      "TIR/TYR",
+      "SocialDefender",
+      "ARU",
+      "Hack4Good",
+      "Faro de Vigo"
+    ],
+    "url": "https://www.farodevigo.es/galicia/2018/05/02/premios-concurso-hack-for-good-16011946.html",
+    "archive": "https://archive.is/PcIt8"
+  },
+  {
+    "date": "2018-05-02",
+    "category": "press",
+    "image": "farodevigo_galiciencia_app.jpg",
+    "name": "So young and a 'hacker'",
+    "description": [
+      "This young 21-year-old from Vigo is already making his first steps in computer security and has just designed the application that will be launched this year by the jury of the Galiciencia science competition."
+    ],
+    "tags": ["Freelancer", "Project", "Galiciencia", "Faro de Vigo"],
+    "url": "https://www.farodevigo.es/galicia/2018/05/02/joven-trayectoria-hacker-16011962.html",
+    "archive": "https://archive.is/V2y7u"
+  },
+  {
+    "date": "2018-05",
+    "category": "video",
+    "image": "galiciencia18.png",
+    "name": "Galiciencia 2018",
+    "description": [
+      "Galiciencia held its first Spring edition with \"Climate Change\" as main theme. My role was as a teacher, doing a workshop entitled \"Climate Change Challenge\"."
+    ],
+    "tags": ["Teacher", "Workshop", "Galiciencia"],
+    "url": "https://www.youtube.com/watch?v=SG0rUAQGLx0&t=56s",
+    "archive": "./archive/Galiciencia2018.mp4"
+  },
+  {
+    "date": "2017-12-11",
+    "category": "video",
+    "image": "galiciencia17.png",
+    "name": "Galiciencia 2017",
+    "description": [
+      "Kike, who participated in Galiciencia a few years ago and came back to give a workshop, discovered: How many stars did you see when you were born?",
+      "Before it was easy to sow confusion, but today everything is accurately recorded thanks to technology. For example, if you want to know exactly what the sky was like and which stars and planets could be seen from your house on the day of your birth."
+    ],
+    "tags": ["Teacher", "Workshop", "Galiciencia"],
+    "url": "https://www.youtube.com/watch?v=FqJD05Ebtyc&t=67s",
+    "archive": "./archive/Galiciencia2017.mp4"
+  },
+  {
+    "date": "2017-12-11",
+    "category": "press",
+    "image": "galiciencia17_press.png",
+    "name": "Workshop: Computers vs Internet",
+    "description": [
+      "Kike, who participated in Galiciencia a few years ago and came back to give a workshop, discovered: How many stars did you see when you were born?",
+      "Before it was easy to sow confusion, but today everything is accurately recorded thanks to technology. For example, if you want to know exactly what the sky was like and which stars and planets could be seen from your house on the day of your birth."
+    ],
+    "tags": ["Teacher", "Workshop", "Galiciencia"],
+    "url": "https://web.archive.org/web/20210719020403/https://galiciencia.com/wp-content/uploads/2020/10/2017-2.pdf",
+    "archive": "./archive/Galiciencia2017.pdf"
+  },
+  {
+    "date": "2017-04-12",
+    "category": "press",
+    "image": "atlanticodiario_socialdefender_digital.jpg",
+    "name": "Two projects from Vigo compete in Madrid (Digital)",
+    "description": [
+      "Two projects of university students from Vigo were classified to enter the first phase of the Telefónica Think Big project in which 126 groups from all over Spain are participating. They are \"Social defender\" and \"Compress to live\"."
+    ],
+    "tags": [
+      "Freelancer",
+      "Project",
+      "SocialDefender",
+      "Hack4Good",
+      "Atlántico Diario"
+    ],
+    "url": "https://www.atlantico.net/articulo/economia/proyectos-vigueses-compiten-124-espanoles-madrid/20170412140325583713.html",
+    "archive": "https://archive.is/Tzzaj"
+  },
+  {
+    "date": "2017-04-12",
+    "category": "press",
+    "image": "atlanticodiario_socialdefender_paper.jpg",
+    "name": "Two projects from Vigo compete in Madrid (Paper)",
+    "description": [
+      "Two projects of university students from Vigo were classified to enter the first phase of the Telefónica Think Big project in which 126 groups from all over Spain are participating. They are \"Social defender\" and \"Compress to live\"."
+    ],
+    "tags": [
+      "Freelancer",
+      "Project",
+      "SocialDefender",
+      "Hack4Good",
+      "Atlántico Diario"
+    ],
+    "archive": "./archive/AtlanticoDiario-SocialDefender.jpg"
+  },
+  {
+    "date": "2017-04-11",
+    "category": "press",
+    "image": "vozdegalicia_socialdefender.webp",
+    "name": "App detects cyber bullyng",
+    "description": [
+      "A parent will be able to know instantly if their child is being bullied thanks to the Social Defender project."
+    ],
+    "tags": [
+      "Freelancer",
+      "Project",
+      "SocialDefender",
+      "Hack4Good",
+      "La Voz de Galicia"
+    ],
+    "url": "https://www.lavozdegalicia.es/noticia/vigo/vigo/2017/04/11/crean-aplicacion-avisa-padres-instante-hijo-sufre-acoso/0003_201704V11C39911.htm",
+    "archive": "https://archive.is/qRfdD"
+  },
+  {
+    "date": "2017-04-11",
+    "category": "press",
+    "image": "gciencia_socialdefender.jpg",
+    "name": "Social Defender, the Galician solution against school bullying",
+    "description": [
+      "Among the Galician ideas, Social Defender stands out, created by Ahmed Anadi and Diego Fontán, a tool that monitors social networks in real time to detect cases of bullying and abuse by a user or group of users against another person. Through a mobile phone alert system, the user can know if he/she has been insulted, even without being mentioned."
+    ],
+    "tags": [
+      "Freelancer",
+      "Project",
+      "SocialDefender",
+      "Hack4Good",
+      "Gciencia"
+    ],
+    "url": "https://www.gciencia.com/tecno/social-defender-solucion-galega-acoso-escolar/",
+    "archive": "https://archive.is/t6h76"
+  },
+  {
+    "date": "2016-03-01",
+    "category": "press",
+    "image": "farodevigo.png",
+    "name": "Hacker contest rewards TIR",
+    "description": [
+      "During Hack4Good, the second award went to the TIR project, a support system for people suffering from some kind of phobia through a safe and controlled virtual reality environment and with the aim that the user can overcome the stress caused by certain situations."
+    ],
+    "tags": ["Freelancer", "Project", "TIR/TYR", "Hack4Good", "Faro de Vigo"],
+    "url": "https://www.farodevigo.es/gran-vigo/2016/03/01/concurso-hackers-premia-aplicaciones-salud-16680457.html",
+    "archive": "https://archive.is/bSi78"
+  },
+  {
+    "date": "2016-02-26",
+    "category": "press",
+    "image": "vozdegalicia_hack4good.webp",
+    "name": "Hackers with good vibes",
+    "description": [
+      "The Hack4Good started at University of Vigo trying to build a better world. My role was as co-creator of a project called TIR (later known as TYR), focused on the treatment of phobias through Virtual Reality."
+    ],
+    "tags": ["Freelancer", "Project", "TIR/TYR", "Hack4Good", "Voz de Galicia"],
+    "url": "https://www.lavozdegalicia.es/noticia/vigo/vigo/2016/02/26/hackers-buen-rollo-vigo/0003_201602V26C12991.htm",
+    "archive": "https://archive.is/YlFlN"
+  },
+  {
+    "date": "2014-11",
+    "category": "video",
+    "image": "galiciencia14.png",
+    "name": "Galiciencia 2014",
+    "description": [
+      "Galiciencia reached its ninth edition with a wide range of activities parallel to the exhibition of projects that included the commemoration of the International Year of Crystallography and Family Farming and the Year of Biotechnology in Spain."
+    ],
+    "tags": ["Student", "Project", "Galiciencia"],
+    "url": "https://www.youtube.com/watch?v=tPbtupWc9zo&t=28s",
+    "archive": "./archive/Galiciencia2014.mp4"
+  },
+  {
+    "date": "2012-11",
+    "category": "video",
+    "image": "galiciencia12.png",
+    "name": "Galiciencia 2012",
+    "description": [
+      "Galiciencia is a science fair that takes place in Galicia. During its seventh edition, my project presented was an application focused on innovating school lessons through the use of Augmented Reality."
+    ],
+    "tags": ["Student", "Project", "Galiciencia"],
+    "url": "https://www.youtube.com/watch?v=WHd8Q6_oiJs&t=46s",
+    "archive": "./archive/Galiciencia2012.mp4"
+  }
+]

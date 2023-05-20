@@ -1,0 +1,194 @@
+main {
+  padding: 30px 50px;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+main section {
+  width: 100%;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main section .title {
+  color: #e5e5e5;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+main section .wrappers {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+main section .wrapper {
+  margin: 10px;
+}
+
+main section .wrappers .wrapper:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+main section .wrappers .wrapper .img {
+  width: 100%;
+  min-width: 250px;
+  max-width: 305px;
+  height: auto;
+  min-height: 130px;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    var(--image);
+}
+
+main section .showcase {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 360px;
+  max-height: 560px;
+  margin-top: 30px;
+  padding: 30px;
+  border: 1px solid #333;
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 40%
+    ),
+    var(--image);
+
+  display: flex;
+  flex-direction: column;
+}
+
+main section .showcase h1,
+main section .showcase p {
+  color: white;
+  font-weight: 500;
+  text-align: justify;
+}
+
+main section .showcase h1 {
+  max-width: 640px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+}
+
+main section .showcase p {
+  max-width: 650px;
+  font-size: 18px;
+  margin: 20px 0;
+  color: #ccc;
+}
+
+main section .showcase small {
+  color: #777;
+}
+
+main section .showcase .tags {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0 35px 0;
+}
+
+main section .showcase .tags .tag {
+  color: #aaa;
+  text-transform: lowercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 5px;
+  border: 1px solid #aaa;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+main section .showcase .links {
+  padding: 20px 0;
+}
+
+main section .showcase .links .link {
+  color: #aaa;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+main section .showcase .links .link:hover {
+  color: #fff;
+}
+
+main section .showcase button {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+main section .showcase .action {
+  color: #000;
+  background-color: #fafafa;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+main section .showcase .action:hover {
+  background-color: #e5e5e5;
+}
+
+main section .showcase .icon {
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  right: 20px;
+  top: 20px;
+}
+
+main section .showcase .icon img {
+  width: 20px;
+  filter: brightness(0) invert(0.9);
+  transition: filter 0.2s ease-in-out;
+}
+
+main section .showcase button:hover {
+  filter: brightness(0) invert(1);
+}
+
+@media screen and (max-width: 650px) {
+  main {
+    text-align: center;
+  }
+
+  main section .wrappers {
+    flex-direction: column;
+  }
+}

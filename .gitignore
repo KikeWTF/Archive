@@ -1,2 +1,5 @@
-.jekyll-cache/
-_site/
+# Node
+/**/node_modules/
+
+# Build
+/**/dist/

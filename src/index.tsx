@@ -2,9 +2,9 @@
 import { render } from "solid-js/web";
 import "normalize.css";
 
-import Router from "./router";
+import Component from "./Component";
 
-import "./styles/index.css";
+import "./index.css";
 
 const root = document.getElementById("root");
 
@@ -14,4 +14,4 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
-render(() => <Router />, root!);
+render(() => <Component />, root!);

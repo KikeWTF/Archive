@@ -1,0 +1,369 @@
+/* ==================
+    Globals
+=================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: #000;
+}
+
+#root {
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  max-width: 2000px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+/* ==================
+    Header
+=================== */
+
+header {
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header > div {
+  width: 100%;
+  height: 100%;
+  padding: 30px 50px;
+  background: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0) 100%);
+}
+
+/* Navigation */
+
+header nav {
+  max-width: 1850px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 175px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (max-width: 650px) {
+  header nav {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+}
+
+header img {
+  height: 43px;
+  width: 165px;
+  margin-right: 20px;
+}
+
+/* Links */
+
+header .links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+@media screen and (max-width: 650px) {
+  header .links {
+    display: none;
+  }
+}
+
+header .link {
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+header .link a {
+  color: #fff;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+/* Title */
+
+header .title,
+header .subtitle {
+  max-width: 750px;
+  margin: initial;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: normal;
+  text-align: justify;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+}
+
+header .title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 50px;
+}
+@media screen and (max-width: 650px) {
+  header .title {
+    font-size: 30px;
+  }
+
+  header .subtitle {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+/* ==================
+    Main
+=================== */
+
+main {
+  padding: 30px 50px;
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+@media screen and (max-width: 650px) {
+  main {
+    text-align: center;
+  }
+}
+
+/* Sections */
+
+main section {
+  width: 100%;
+  margin-bottom: 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main section .title {
+  color: #e5e5e5;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+main section .wrappers {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+@media screen and (max-width: 650px) {
+  main section .wrappers {
+    flex-direction: column;
+  }
+}
+
+/* Wrapper */
+
+main section .wrappers .wrapper {
+  margin: 10px;
+}
+main section .wrappers .wrapper:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+main section .wrappers .wrapper .img {
+  width: 100%;
+  min-width: 250px;
+  max-width: 305px;
+  height: auto;
+  min-height: 130px;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    var(--image);
+}
+
+/* Showcase */
+
+main section .showcase {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 360px;
+  margin-top: 30px;
+  padding: 30px;
+  border: 1px solid #333;
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.9) 40%
+    ),
+    var(--image);
+
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 650px) {
+  main section .showcase {
+    background-size: cover;
+  }
+}
+
+main section .showcase h1,
+main section .showcase p {
+  color: white;
+  font-weight: 500;
+  text-align: justify;
+}
+
+main section .showcase h1 {
+  max-width: 640px;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: left;
+}
+@media screen and (max-width: 650px) {
+  main section .showcase h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+}
+
+main section .showcase p {
+  max-width: 650px;
+  font-size: 18px;
+  margin: 20px 0;
+  color: #ccc;
+}
+@media screen and (max-width: 650px) {
+  main section .showcase p {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+main section .showcase small {
+  color: #777;
+}
+
+main section .showcase .tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px 0px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0 35px 0;
+}
+@media screen and (max-width: 650px) {
+  main section .showcase .tags {
+    justify-content: center;
+  }
+}
+
+main section .showcase .tags .tag {
+  color: #aaa;
+  text-transform: lowercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin-right: 5px;
+  border: 1px solid #aaa;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+main section .showcase .links {
+  padding: 20px 0;
+}
+
+main section .showcase .links .link {
+  color: #aaa;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+main section .showcase .links .link:hover {
+  color: #fff;
+}
+
+main section .showcase button {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+main section .showcase .action {
+  color: #000;
+  background-color: #fafafa;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+main section .showcase .action:hover {
+  background-color: #e5e5e5;
+}
+
+main section .showcase .icon {
+  position: absolute;
+  color: white;
+  background-color: transparent;
+  right: 20px;
+  top: 20px;
+}
+
+main section .showcase .icon img {
+  width: 20px;
+  filter: brightness(0) invert(0.9);
+  transition: filter 0.2s ease-in-out;
+}
+
+main section .showcase button:hover {
+  filter: brightness(0) invert(1);
+}

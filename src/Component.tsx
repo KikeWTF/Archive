@@ -52,8 +52,8 @@ export default function Component() {
             </div>
           </nav>
 
-          {/* Title */}
-          <div>
+          {/* Descripttion */}
+          <div class="description">
             <h1 class="title">Archive</h1>
             <h2 class="subtitle">
               Welcome to my personal time machine where I compile my media

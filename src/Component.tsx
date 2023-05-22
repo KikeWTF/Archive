@@ -34,7 +34,7 @@ export default function Component() {
   return (
     <>
       {/* Header */}
-      <header style={{ "background-image": `url(${Background})` }}>
+      <header>
         <div>
           {/* Navigation */}
           <nav>
@@ -91,7 +91,7 @@ export default function Component() {
                       <div
                         class="img"
                         style={{
-                          "--image": `url(./covers/${reference.image})`,
+                          "--image": `url(../covers/${reference.image})`,
                         }}
                         onClick={() => {
                           getSelected() === reference
@@ -118,7 +118,7 @@ export default function Component() {
                   id="showcase"
                   class="showcase"
                   style={{
-                    "--image": `url(./covers/${getSelected()?.image})`,
+                    "--image": `url(../covers/${getSelected()?.image})`,
                   }}
                 >
                   <h1>{getSelected()?.name}</h1>

@@ -1,9 +1,9 @@
 {
   "private": true,
   "name": "@kikewtf/archive",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "CosasDePuma",
-  "description": "",
+  "description": "AGPL-3.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kikewtf/archive.git"
@@ -31,8 +31,7 @@
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
-    "solid-js": "^1.6.10",
-    "@solidjs/router": "^0.8.2",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "solid-js": "^1.6.10"
   }
 }

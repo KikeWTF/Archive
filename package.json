@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "@kikewtf/archive",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "CosasDePuma",
   "description": "AGPL-3.0",
   "repository": {
@@ -20,18 +20,17 @@
     "netflix"
   ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "astro": "astro"
   },
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.9.5",
-    "vite": "^4.1.1",
-    "vite-plugin-solid": "^2.5.0"
-  },
-  "dependencies": {
-    "normalize.css": "^8.0.1",
-    "solid-js": "^1.6.10"
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^26.2.0",
+    "astro": "^7.2.1",
+    "typescript": "^5.0.0"
   }
 }

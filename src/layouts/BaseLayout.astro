@@ -1,0 +1,87 @@
+---
+import Header from '../components/Header.astro';
+import { assetUrl } from '../lib/assets';
+import type { Reference } from '../lib/references';
+import '../styles/global.css';
+
+const title = "Kike's Archive";
+const description =
+  'Welcome to my personal time machine where I compile my media appearances, highlighting my media presence and documenting my professional engagements and accomplishments.';
+const previewUrl = 'https://kike.wtf/archive/preview.png';
+const canonicalUrl = 'https://kike.wtf/archive/';
+
+interface Props {
+  title?: string;
+  description?: string;
+  featuredSlides?: Reference[];
+}
+
+const {
+  title: pageTitle = title,
+  description: pageDescription = description,
+  featuredSlides = [],
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{pageTitle}</title>
+    <link rel="icon" href={assetUrl('favicon.ico')} />
+    <meta name="theme-color" content="#000000" />
+    <meta name="author" content="Kike Fontan (hola+archive@kike.wtf)" />
+    <meta
+      name="copyright"
+      content="Copyright &copy; 2023 Kike Fontan"
+    />
+    <meta name="description" content={pageDescription} />
+    <meta
+      name="keywords"
+      content="kike, fontan, pumita, cosasdepuma, archive, kikeflix, famous, press, media, video"
+    />
+    <meta name="robots" content="index,nofollow" />
+    <meta name="revisit-after" content="30 days" />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={previewUrl} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={previewUrl} />
+    <meta property="og:site_name" content={title} />
+    {
+      featuredSlides[0] && (
+        <link
+          rel="preload"
+          as="image"
+          fetchpriority="high"
+          href={assetUrl(`covers/${featuredSlides[0].image}`)}
+        />
+      )
+    }
+  </head>
+  <body>
+    <div class="page">
+      <Header featuredSlides={featuredSlides} />
+
+      <main class="page__main">
+        <slot />
+      </main>
+
+      <footer class="page__footer">
+        <p>&copy; {new Date().getFullYear()} Kike Fontan</p>
+      </footer>
+    </div>
+
+    <script>
+      import '../scripts/showcase.ts';
+      import '../scripts/billboard.ts';
+    </script>
+  </body>
+</html>

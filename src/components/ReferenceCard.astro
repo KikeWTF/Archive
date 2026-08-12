@@ -1,0 +1,35 @@
+---
+import type { Reference } from '../lib/references';
+import { assetUrl } from '../lib/assets';
+
+interface Props {
+  reference: Reference;
+}
+
+const { reference } = Astro.props;
+
+const coverUrl = assetUrl(`covers/${reference.image}`);
+const showcaseId = `showcase-${reference.id}`;
+---
+
+<button
+  class="card"
+  type="button"
+  data-card={reference.id}
+  data-tags={(reference.tags ?? []).join(' ')}
+  aria-expanded="false"
+  aria-controls={showcaseId}
+  aria-label={`Show details about ${reference.name}`}
+>
+  <img
+    class="card__image"
+    src={coverUrl}
+    alt=""
+    width="640"
+    height="360"
+    loading="lazy"
+  />
+  <span class="card__overlay" aria-hidden="true">
+    <span class="card__name">{reference.name}</span>
+  </span>
+</button>

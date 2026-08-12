@@ -1,5 +1,8 @@
-# Node
+/**/*.log
+/**/.astro/
+/**/.direnv/
+/**/.DS_Store
+/**/.playwright-mcp/
 /**/node_modules/
-
-# Build
 /**/www/
+/**/dist/

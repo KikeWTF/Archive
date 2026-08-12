@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ReferenceCard from '../components/ReferenceCard.astro';
+import Showcase from '../components/Showcase.astro';
+import {
+  allReferences,
+  categoryLabel,
+  featuredSlides,
+  groupsByCategory,
+} from '../lib/references';
+---
+
+<BaseLayout featuredSlides={featuredSlides}>
+  <p class="tags__note" data-tag-note hidden></p>
+  {
+    groupsByCategory.map((group) => (
+      <section class="section">
+        <h2 class="section__title">{categoryLabel(group.category)}</h2>
+
+        <div class="row">
+          <button
+            class="row__arrow row__arrow--prev"
+            type="button"
+            data-scroll-prev
+            aria-label="Previous"
+          >
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+              <path d="M15 4l-8 8 8 8-2 2-10-10L13 2l2 2z" fill="currentColor" />
+            </svg>
+          </button>
+
+          <div class="section__row">
+            {
+              group.references.map((reference) => (
+                <ReferenceCard reference={reference} />
+              ))
+            }
+          </div>
+
+          <button
+            class="row__arrow row__arrow--next"
+            type="button"
+            data-scroll-next
+            aria-label="Next"
+          >
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+              <path d="M9 4l8 8-8 8 2 2 10-10L11 2 9 4z" fill="currentColor" />
+            </svg>
+          </button>
+        </div>
+      </section>
+    ))
+  }
+
+  {allReferences.map((reference) => <Showcase reference={reference} />)}
+</BaseLayout>

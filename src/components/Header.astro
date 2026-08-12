@@ -1,0 +1,121 @@
+---
+import logo from '../img/logo.png';
+import { assetUrl, resolveAsset } from '../lib/assets';
+import { isExternalUrl, type Reference } from '../lib/references';
+
+interface Props {
+  featuredSlides?: Reference[];
+}
+
+const { featuredSlides = [] } = Astro.props;
+
+const logoUrl = resolveAsset(logo);
+
+const slides = featuredSlides.map((reference, index) => {
+  const cover = assetUrl(`covers/${reference.image}`);
+  const watchUrl = reference.archive ?? reference.url ?? '#';
+  const description = Array.isArray(reference.description)
+    ? reference.description.join(' ')
+    : reference.description;
+  return { reference, cover, watchUrl, description, index };
+});
+---
+
+<nav
+  class:list={['nav', featuredSlides.length > 0 && 'nav--hero']}
+  data-nav
+  aria-label="Main navigation"
+>
+  <div class="nav__inner">
+    <a class="nav__logo" href="/archive/" aria-label="Kikeflix">
+      <img src={logoUrl} alt="Kikeflix" width="165" height="43" />
+    </a>
+    <div class="nav__links">
+      <a class="nav__link" href="/archive/">Home</a>
+      <a class="nav__link" href="/archive/tags/">Tags</a>
+      <a class="nav__link" href="/archive/feed.xml">RSS</a>
+      <a class="nav__link" href="/archive/api">API</a>
+    </div>
+  </div>
+</nav>
+
+{featuredSlides.length > 0 && (
+<header class="hero" data-billboard>
+  {
+    slides.map(({ reference, cover, watchUrl, description, index }) => (
+      <div
+        class:list={['slide', index === 0 && 'is-active']}
+        data-slide={index}
+        aria-hidden={index !== 0}
+        inert={index !== 0 ? '' : undefined}
+      >
+        <div
+          class="slide__bg"
+          style={`background-image: url('${cover}')`}
+        ></div>
+        <div class="slide__shade"></div>
+
+        <div class="slide__content">
+          <h1 class="slide__title">{reference.name}</h1>
+          <p class="slide__description">{description}</p>
+          <div class="slide__actions">
+            <a
+              class="btn btn--play"
+              href={watchUrl}
+              {...(isExternalUrl(watchUrl)
+                ? { target: '_blank', rel: 'noopener noreferrer' }
+                : {})}
+            >
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <path d="M6 4l14 8-14 8V4z" fill="currentColor" />
+              </svg>
+              Play
+            </a>
+            <button class="btn btn--info" type="button" data-open={reference.id}>
+              <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true">
+                <path
+                  d="M12 4a1 1 0 011 1v6h6a1 1 0 110 2h-6v6a1 1 0 11-2 0v-6H5a1 1 0 110-2h6V5a1 1 0 011-1z"
+                  fill="currentColor"
+                />
+              </svg>
+              More Info
+            </button>
+          </div>
+        </div>
+      </div>
+    ))
+  }
+
+  <p class="hero__scroll" data-scroll-hint>
+    Scroll
+    <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+      <path
+        d="M6 9l6 6 6-6"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </p>
+
+  {
+    slides.length > 1 && (
+      <div class="hero__dots" aria-label="Featured highlights">
+        {
+          slides.map(({ index }) => (
+            <button
+              class="hero__dot"
+              type="button"
+              data-dot={index}
+              aria-label={`Show highlight ${index + 1}`}
+              aria-current={index === 0 ? 'true' : 'false'}
+            ></button>
+          ))
+        }
+      </div>
+    )
+  }
+</header>
+)}

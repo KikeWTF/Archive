@@ -1,0 +1,108 @@
+---
+import closeIcon from '../img/close.png';
+import { assetUrl, resolveAsset } from '../lib/assets';
+import { isExternalUrl, type Reference } from '../lib/references';
+
+interface Props {
+  reference: Reference;
+}
+
+const { reference } = Astro.props;
+
+const showcaseId = `showcase-${reference.id}`;
+const titleId = `${showcaseId}-title`;
+const coverUrl = assetUrl(`covers/${reference.image}`);
+const closeIconUrl = resolveAsset(closeIcon);
+const paragraphs = Array.isArray(reference.description)
+  ? reference.description
+  : [reference.description];
+---
+
+<article
+  id={showcaseId}
+  class="modal"
+  data-showcase={reference.id}
+  hidden
+  style={`--modal-image: url('${coverUrl}')`}
+>
+  <div class="modal__backdrop" data-backdrop={reference.id}></div>
+
+  <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby={titleId}>
+    <div class="modal__banner">
+      <button
+        class="modal__close"
+        type="button"
+        data-close={reference.id}
+        aria-label="Close"
+      >
+        <img src={closeIconUrl} alt="" width="20" height="20" />
+      </button>
+    </div>
+
+    <div class="modal__body">
+      <h3 class="modal__title" id={titleId}>{reference.name}</h3>
+
+      <div class="modal__meta">
+        <p class="modal__date">
+          <time datetime={reference.date}>{reference.date}</time>
+        </p>
+        {
+          reference.tags && (
+            <ul class="modal__tags">
+              {reference.tags.map((tag) => (
+                <li>
+                  <button class="modal__tag" type="button" data-tag={tag}>
+                    {tag}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )
+        }
+      </div>
+
+      <div class="modal__description">
+        {paragraphs.map((paragraph) => <p>{paragraph}</p>)}
+      </div>
+
+      <footer class="modal__links">
+        {
+          reference.url ? (
+            <>
+              <a
+                class="btn btn--action"
+                href={reference.url}
+                {...(isExternalUrl(reference.url)
+                  ? { target: '_blank', rel: 'noopener noreferrer' }
+                  : {})}
+              >
+                Original Link
+              </a>
+              {
+                reference.archive && (
+                  <a class="modal__link" href={reference.archive}>
+                    Archived
+                  </a>
+                )
+              }
+            </>
+          ) : reference.archive ? (
+            <a
+              class="btn btn--action"
+              href={reference.archive}
+              {...(isExternalUrl(reference.archive)
+                ? { target: '_blank', rel: 'noopener noreferrer' }
+                : {})}
+            >
+              Archived Link
+            </a>
+          ) : (
+            <a class="btn btn--action" href="#">
+              Not found
+            </a>
+          )
+        }
+      </footer>
+    </div>
+  </div>
+</article>

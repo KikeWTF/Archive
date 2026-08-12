@@ -1,0 +1,454 @@
+[
+  {
+    "date": "2026-05-08",
+    "category": "video",
+    "image": "ies-teis-ciberseguridad-2026.jpg",
+    "name": "Talk: Hacking o ¿Hacking?",
+    "description": "A cybersecurity workshop titled “Hacking o ¿Hacking?” held for students at IES de Teis in 2026.",
+    "tags": [
+      "Speaker",
+      "Talk",
+      "Cybersecurity",
+      "IES Teis"
+    ],
+    "url": "https://www.youtube.com/watch?v=j09Vetu4p_s",
+    "archive": "https://archive.org/download/kikewtf-archive-teis-ciberseguridad-2026/teis_ciberseguridad_2026.mp4"
+  },
+  {
+    "date": "2025-05-23",
+    "category": "video",
+    "image": "ies-teis-hacking-2025.jpg",
+    "name": "Talk: El apasionante mundo del hacking",
+    "description": "Cybersecurity workshop titled “El apasionante mundo del hacking” held for students at IES de Teis in 2025.",
+    "tags": [
+      "Speaker",
+      "Talk",
+      "Cybersecurity",
+      "IES Teis"
+    ],
+    "url": "https://www.youtube.com/watch?v=w7f2dczfmAU",
+    "archive": "https://archive.org/download/kikewtf-archive-teis-hacking-2025/teis_hacking_2025.mp4"
+  },
+  {
+    "date": "2024-05-01",
+    "category": "video",
+    "image": "ies-teis-dam-daw-2024.jpg",
+    "name": "Talk: Hacking con buscadores",
+    "description": "Cybersecurity workshop titled “Hacking con buscadores” held for students at IES de Teis in 2024.",
+    "tags": [
+      "Speaker",
+      "Talk",
+      "Cybersecurity",
+      "IES Teis",
+      "Workshop"
+    ],
+    "url": "https://www.youtube.com/watch?v=fECOykKSATw",
+    "archive": "https://archive.org/download/kikewtf-archive-teis-dam-daw-2024/teis_dam_daw_2024.mp4"
+  },
+  {
+    "date": "2026-03-12",
+    "category": "video",
+    "image": "rootedcon-2026-sepa.jpg",
+    "name": "Cameo: RootedCON 2026 — BySepa",
+    "description": "In this video where BySepa talks about his experience at RootedCON 2026, I appear presenting my talk.",
+    "tags": [
+      "Speaker",
+      "Talk",
+      "RootedCON",
+      "Cybersecurity",
+      "Event",
+      "Cameo"
+    ],
+    "url": "https://www.youtube.com/watch?v=Nt2dzrN5McE&t=3249",
+    "archive": "https://archive.org/download/kikewtf-archive-rootedcon-2026-sepa/rootedcon26_sepa.mp4"
+  },
+  {
+    "date": "2026-03-05",
+    "category": "media",
+    "image": "rootedcon-2026-cronica.jpg",
+    "name": "RootedCon 2026: First Day Report",
+    "description": "Kike Fontán presented \"A Talk Without a Name Because the Website Was Down\" at RootedCON 2026, together with Pablo García (who could not attend in the end) and sponsored by NTT Data.",
+    "tags": [
+      "Speaker",
+      "Talk",
+      "RootedCON",
+      "NTT Data",
+      "Cybersecurity",
+      "Pentester"
+    ],
+    "url": "https://www.acampos.net/2026/03/rootedcon-2026-cronica-del-primer-dia.html",
+    "archive": "https://archive.is/3NjoQ"
+  },
+  {
+    "date": "2019-06-05",
+    "category": "video",
+    "image": "galiciencia-2019.png",
+    "name": "Galiciencia 2019",
+    "description": "In the Galiciencia 2019 summary video, dedicated to health and good habits, I appear running my workshop about good internet habits.",
+    "tags": [
+      "Teacher",
+      "Workshop",
+      "Galiciencia",
+      "Cameo"
+    ],
+    "url": "https://www.youtube.com/watch?v=rTkf0QJ-XGw&t=104s",
+    "archive": "https://archive.org/download/kikewtf-archive-galiciencia-2019/Galiciencia2019.mp4"
+  },
+  {
+    "date": "2019-05-10",
+    "category": "press",
+    "image": "workshop-digital-worlds.png",
+    "name": "Workshop: Digital Worlds",
+    "description": "We share our lives with strangers through the internet, and that comes with risks. Do you know what cookies are? Besides being delicious, they are pieces of data. When you accept them, they personalize your browsing, but they also put your privacy at risk.",
+    "tags": [
+      "Teacher",
+      "Workshop",
+      "Galiciencia"
+    ],
+    "url": "http://web.archive.org/web/20210719020353/https://galiciencia.com/wp-content/uploads/2020/10/2019-2.pdf",
+    "archive": "./archive/Galiciencia2019.pdf"
+  },
+  {
+    "date": "2019-03-29",
+    "category": "media",
+    "image": "don-bosco-jury-verdict.jpg",
+    "name": "Don Bosco Awards XXXII — Jury Verdict",
+    "description": "Among the twelve prizes awarded in the Health Sciences research area was a project called Baby Safety, which develops systems for the prevention of sudden infant death syndrome. The students belong to the Aulas Tecnópole de Ourense and explained that the design includes four devices that can be integrated into the baby's crib and clothing to monitor its position, temperature and pulse while it sleeps. These systems reduce the likelihood of a newborn suffering sudden death.",
+    "tags": [
+      "Teacher",
+      "Project",
+      "Don Bosco Awards",
+      "Salesianos"
+    ],
+    "url": "https://salesianos.info/wp-content/uploads/2019/03/Fallo-del-jurado-con-resumen.pdf",
+    "archive": "./archive/DonBosco-FalloJurado.pdf"
+  },
+  {
+    "date": "2019-03-29",
+    "category": "media",
+    "image": "don-bosco-winners.jpg",
+    "name": "Don Bosco Awards XXXII — Winners",
+    "description": "Among the twelve prizes awarded in the Health Sciences research area was a project called Baby Safety, which develops systems for the prevention of sudden infant death syndrome. The students belong to the Aulas Tecnópole de Ourense and explained that the design includes four devices that can be integrated into the baby's crib and clothing to monitor its position, temperature and pulse while it sleeps. These systems reduce the likelihood of a newborn suffering sudden death.",
+    "tags": [
+      "Teacher",
+      "Project",
+      "Don Bosco Awards",
+      "Salesianos"
+    ],
+    "url": "https://zaragoza.salesianos.edu/premiodonbosco/xxxiia-edicion/",
+    "archive": "https://archive.is/gOQtV"
+  },
+  {
+    "date": "2019-03-15",
+    "category": "press",
+    "image": "don-bosco-sudden-infant-death.jpg",
+    "name": "A System Against Sudden Infant Death, Among the Don Bosco Awards",
+    "description": "Among the twelve prizes awarded in the Health Sciences research area was a project called Baby Safety, which develops systems for the prevention of sudden infant death syndrome. The students belong to the Aulas Tecnópole de Ourense and explained that the design includes four devices that can be integrated into the baby's crib and clothing to monitor its position, temperature and pulse while it sleeps. These systems reduce the likelihood of a newborn suffering sudden death.",
+    "tags": [
+      "Teacher",
+      "Project",
+      "Don Bosco Awards",
+      "Heraldo"
+    ],
+    "url": "https://www.heraldo.es/noticias/aragon/2019/03/15/un-sistema-contra-la-muerte-subita-de-un-bebe-entre-los-premios-don-bosco-1303128.html",
+    "archive": "https://archive.is/kHmrf"
+  },
+  {
+    "date": "2019-02-28",
+    "category": "media",
+    "image": "lorenzo-albaladejo-post.jpeg",
+    "name": "Lorenzo Albaladejo Martínez's Post",
+    "description": [
+      "\"Getting to know people like Diego Enrique Fontán Lorenzo and talking with them, and seeing that fighting ALWAYS pays off. Delighted that you are part of our team — a multidisciplinary team that Luisa Fernanda Yágüez Ariza, Jero García and I have the honour and the pride of leading with one goal: to fight against violence and discrimination in children and adolescents. Thank you so much for joining us!\"",
+      "- Lorenzo Albaladejo (Paralympic Athlete)"
+    ],
+    "tags": [
+      "Freelancer",
+      "Project",
+      "SocialDefender",
+      "Famous"
+    ],
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:6426006621335490560/",
+    "archive": "https://archive.is/N6R46"
+  },
+  {
+    "date": "2018-05-21",
+    "category": "video",
+    "image": "galiciencia-2018.png",
+    "name": "Galiciencia 2018",
+    "description": "In the Galiciencia 2018 summary video about climate change, I appear running my workshop.",
+    "tags": [
+      "Teacher",
+      "Workshop",
+      "Galiciencia",
+      "Cameo"
+    ],
+    "url": "https://www.youtube.com/watch?v=SG0rUAQGLx0&t=56s",
+    "archive": "https://archive.org/download/kikewtf-archive-galiciencia-2018/Galiciencia2018.mp4"
+  },
+  {
+    "date": "2018-05-13",
+    "category": "podcast",
+    "image": "efer-438-spotify.jpg",
+    "name": "Efer 438: Galiciencia Edition (Spotify)",
+    "description": "Efervesciencia recorded at Tecnópole (San Cibrán das Viñas) to get a first-hand look at the 13th edition of the Galiciencia science fair. Sabela Bouzo, Antonio Gregorio, Ana Otero, Tino Álvarez, David Ballesteros, Iria Ollero and Kike Fontán were all there.",
+    "tags": [
+      "Teacher",
+      "Freelancer",
+      "Workshop",
+      "Galiciencia"
+    ],
+    "url": "https://open.spotify.com/episode/0Ci234XwSxezYPJFzyCjKv",
+    "archive": "https://archive.org/download/kikewtf-archive-efervesciencia-efer438/efervesciencia.mp3"
+  },
+  {
+    "date": "2018-05-13",
+    "category": "podcast",
+    "image": "efer-438-google.png",
+    "name": "Efer 438: Galiciencia Edition (Google Podcasts)",
+    "description": "Efervesciencia recorded at Tecnópole (San Cibrán das Viñas) to get a first-hand look at the 13th edition of the Galiciencia science fair. Sabela Bouzo, Antonio Gregorio, Ana Otero, Tino Álvarez, David Ballesteros, Iria Ollero and Kike Fontán were all there.",
+    "tags": [
+      "Teacher",
+      "Freelancer",
+      "Workshop",
+      "Galiciencia"
+    ],
+    "url": "https://podcasts.google.com/feed/aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvMjg5MjU3Ni9lcGlzb2Rlcy9mZWVk/episode/aHR0cDovL3d3dy5pdm9veC5jb20vMjYwOTg0NzQ",
+    "archive": "https://archive.org/download/kikewtf-archive-efervesciencia-efer438/efervesciencia.mp3"
+  },
+  {
+    "date": "2018-05-13",
+    "category": "podcast",
+    "image": "efer-438-podcast-addict.webp",
+    "name": "Efer 438: Galiciencia Edition (Podcast Addict)",
+    "description": "Efervesciencia recorded at Tecnópole (San Cibrán das Viñas) to get a first-hand look at the 13th edition of the Galiciencia science fair. Sabela Bouzo, Antonio Gregorio, Ana Otero, Tino Álvarez, David Ballesteros, Iria Ollero and Kike Fontán were all there.",
+    "tags": [
+      "Teacher",
+      "Freelancer",
+      "Workshop",
+      "Galiciencia"
+    ],
+    "url": "https://web.archive.org/web/20210719020418/https://podcastaddict.com/episode/86828182",
+    "archive": "https://archive.org/download/kikewtf-archive-efervesciencia-efer438/efervesciencia.mp3"
+  },
+  {
+    "date": "2018-05-13",
+    "category": "podcast",
+    "image": "efer-438-spreaker.jpg",
+    "name": "Efer 438: Galiciencia Edition (Spreaker)",
+    "description": "Efervesciencia recorded at Tecnópole (San Cibrán das Viñas) to get a first-hand look at the 13th edition of the Galiciencia science fair. Sabela Bouzo, Antonio Gregorio, Ana Otero, Tino Álvarez, David Ballesteros, Iria Ollero and Kike Fontán were all there.",
+    "tags": [
+      "Teacher",
+      "Freelancer",
+      "Workshop",
+      "Galiciencia"
+    ],
+    "url": "https://www.spreaker.com/user/9238794/efer-438-13-5-18-especial-galiciencia",
+    "archive": "https://archive.org/download/kikewtf-archive-efervesciencia-efer438/efervesciencia.mp3"
+  },
+  {
+    "date": "2018-05-02",
+    "category": "press",
+    "image": "hack-for-good-contest.png",
+    "name": "Several Prizes in the 'Hack For Good' Contest",
+    "description": "Fontán took part in the 'Hack For Good' contest (organised by Telefónica) at the University of Vigo, winning prizes on three occasions. \"I think the first one was a second prize of around 600 euros, with a project to treat phobias through virtual reality,\" says Fontán.",
+    "tags": [
+      "Freelancer",
+      "Project",
+      "TIR/TYR",
+      "SocialDefender",
+      "ARU",
+      "Hack4Good",
+      "Faro de Vigo"
+    ],
+    "url": "https://www.farodevigo.es/galicia/2018/05/02/premios-concurso-hack-for-good-16011946.html",
+    "archive": "https://archive.is/PcIt8"
+  },
+  {
+    "date": "2018-05-02",
+    "category": "press",
+    "image": "so-young-hacker.jpg",
+    "name": "So Young and Already a 'Hacker'",
+    "description": "This 21-year-old from Vigo is already taking his first steps in computer security and has just designed the app that the Galiciencia science contest jury will debut this year.",
+    "tags": [
+      "Freelancer",
+      "Project",
+      "Galiciencia",
+      "Faro de Vigo"
+    ],
+    "url": "https://www.farodevigo.es/galicia/2018/05/02/joven-trayectoria-hacker-16011962.html",
+    "archive": "https://archive.is/V2y7u"
+  },
+  {
+    "date": "2018-05-01",
+    "category": "press",
+    "image": "high-tech-jury-without-paper.png",
+    "name": "A High-Tech Jury Without Paper",
+    "description": "Innovation... The app designed by Kike Fontán. The 40 jury members had a new tool to evaluate the projects during the contest: a mobile application.",
+    "tags": [
+      "Teacher",
+      "Freelancer",
+      "Workshop",
+      "Galiciencia"
+    ],
+    "url": "https://web.archive.org/web/20210719020358/https://galiciencia.com/wp-content/uploads/2020/10/2018-2.pdf",
+    "archive": "./archive/Galiciencia2018.pdf"
+  },
+  {
+    "date": "2017-12-11",
+    "category": "video",
+    "image": "galiciencia-2017.png",
+    "name": "Galiciencia 2017",
+    "description": "In the Galiciencia 2017 summary video, I appear running my workshop about the stars you could see on the day you were born.",
+    "tags": [
+      "Teacher",
+      "Workshop",
+      "Galiciencia",
+      "Cameo"
+    ],
+    "url": "https://www.youtube.com/watch?v=FqJD05Ebtyc&t=67s",
+    "archive": "https://archive.org/download/kikewtf-archive-galiciencia-2017/Galiciencia2017.mp4"
+  },
+  {
+    "date": "2017-11-01",
+    "category": "press",
+    "image": "workshop-computers-vs-internet.png",
+    "name": "Workshop: Computers vs the Internet",
+    "description": [
+      "Kike, who took part in Galiciencia a few years ago and came back to run a workshop, discovers: How many stars did you see when you were born?",
+      "It used to be easy to sow confusion, but today everything is accurately recorded thanks to technology. For example, if you want to know exactly what the sky looked like, and which stars and planets could be seen from your house on the day you were born."
+    ],
+    "tags": [
+      "Teacher",
+      "Workshop",
+      "Galiciencia"
+    ],
+    "url": "https://web.archive.org/web/20210719020403/https://galiciencia.com/wp-content/uploads/2020/10/2017-2.pdf",
+    "archive": "./archive/Galiciencia2017.pdf"
+  },
+  {
+    "date": "2017-04-12",
+    "category": "press",
+    "image": "atlanticodiario-socialdefender-digital.jpg",
+    "name": "Two Projects from Vigo Compete in Madrid (Digital)",
+    "description": "Two projects by university students from Vigo made it into the first phase of Telefónica's Think Big programme, in which 126 groups from all over Spain take part. They are \"Social defender\" and \"Compress to live\".",
+    "tags": [
+      "Freelancer",
+      "Project",
+      "SocialDefender",
+      "Hack4Good",
+      "Atlántico Diario"
+    ],
+    "url": "https://www.atlantico.net/articulo/economia/proyectos-vigueses-compiten-124-espanoles-madrid/20170412140325583713.html",
+    "archive": "https://archive.is/Tzzaj"
+  },
+  {
+    "date": "2017-04-12",
+    "category": "press",
+    "image": "atlanticodiario-socialdefender-paper.jpg",
+    "name": "Two Projects from Vigo Compete in Madrid (Paper)",
+    "description": "Two projects by university students from Vigo made it into the first phase of Telefónica's Think Big programme, in which 126 groups from all over Spain take part. They are \"Social defender\" and \"Compress to live\".",
+    "tags": [
+      "Freelancer",
+      "Project",
+      "SocialDefender",
+      "Hack4Good",
+      "Atlántico Diario"
+    ],
+    "archive": "./archive/AtlanticoDiario-SocialDefender.jpg"
+  },
+  {
+    "date": "2017-04-11",
+    "category": "press",
+    "image": "vozdegalicia-socialdefender.webp",
+    "name": "An App That Detects Cyberbullying",
+    "description": "Parents will be able to know instantly if their child is being bullied thanks to the Social Defender project.",
+    "tags": [
+      "Freelancer",
+      "Project",
+      "SocialDefender",
+      "Hack4Good",
+      "La Voz de Galicia"
+    ],
+    "url": "https://www.lavozdegalicia.es/noticia/vigo/vigo/2017/04/11/crean-aplicacion-avisa-padres-instante-hijo-sufre-acoso/0003_201704V11C39911.htm",
+    "archive": "https://archive.is/qRfdD"
+  },
+  {
+    "date": "2017-04-11",
+    "category": "press",
+    "image": "gciencia-socialdefender.jpg",
+    "name": "Social Defender, the Galician Solution Against School Bullying",
+    "description": "Among the Galician ideas, Social Defender stands out, created by Ahmed Anadi and Diego Fontán. It is a tool that monitors social networks in real time to detect cases of bullying or abuse of one user or group of users against another. Through a mobile alert system, the user can know if they have been insulted, even without being mentioned.",
+    "tags": [
+      "Freelancer",
+      "Project",
+      "SocialDefender",
+      "Hack4Good",
+      "Gciencia"
+    ],
+    "url": "https://www.gciencia.com/tecno/social-defender-solucion-galega-acoso-escolar/",
+    "archive": "https://archive.is/t6h76"
+  },
+  {
+    "date": "2016-03-01",
+    "category": "press",
+    "image": "farodevigo-tir.png",
+    "name": "Hacker Contest Awards TIR",
+    "description": "During Hack4Good, the second prize went to the TIR project, a support system for people suffering from some kind of phobia through a safe and controlled virtual reality environment, with the aim of helping the user overcome the stress caused by certain situations.",
+    "tags": [
+      "Freelancer",
+      "Project",
+      "TIR/TYR",
+      "Hack4Good",
+      "Faro de Vigo"
+    ],
+    "url": "https://www.farodevigo.es/gran-vigo/2016/03/01/concurso-hackers-premia-aplicaciones-salud-16680457.html",
+    "archive": "https://archive.is/bSi78"
+  },
+  {
+    "date": "2016-02-26",
+    "category": "press",
+    "image": "vozdegalicia-hack4good.webp",
+    "name": "Hackers with Good Vibes",
+    "description": "Hack4Good kicked off at the University of Vigo with the goal of building a better world. My role was as co-creator of a project called TIR (later known as TYR), focused on treating phobias through Virtual Reality.",
+    "tags": [
+      "Freelancer",
+      "Project",
+      "TIR/TYR",
+      "Hack4Good",
+      "Voz de Galicia"
+    ],
+    "url": "https://www.lavozdegalicia.es/noticia/vigo/vigo/2016/02/26/hackers-buen-rollo-vigo/0003_201602V26C12991.htm",
+    "archive": "https://archive.is/YlFlN"
+  },
+  {
+    "date": "2014-11-01",
+    "category": "video",
+    "image": "galiciencia-2014.png",
+    "name": "Galiciencia 2014",
+    "description": "In the Galiciencia 2014 summary video, I appear presenting my project about automating exam grading.",
+    "tags": [
+      "Student",
+      "Project",
+      "Galiciencia",
+      "Cameo"
+    ],
+    "url": "https://www.youtube.com/watch?v=tPbtupWc9zo&t=28s",
+    "archive": "https://archive.org/download/kikewtf-archive-galiciencia-2014/Galiciencia2014.mp4"
+  },
+  {
+    "date": "2012-11-01",
+    "category": "video",
+    "image": "galiciencia-2012.png",
+    "name": "Galiciencia 2012",
+    "description": "In the Galiciencia 2012 summary video, I appear presenting my Augmented Reality project for the classroom.",
+    "tags": [
+      "Student",
+      "Project",
+      "Galiciencia",
+      "Cameo"
+    ],
+    "url": "https://www.youtube.com/watch?v=WHd8Q6_oiJs&t=46s",
+    "archive": "https://archive.org/download/kikewtf-archive-galiciencia-2012/Galiciencia2012.mp4"
+  }
+]
